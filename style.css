@@ -1,0 +1,479 @@
+body {
+    margin: 0;
+    color: #000;
+    background: #fff;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.wanted {
+    background: #e3e3e3;
+    text-align: center;
+}
+
+.wanted span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.logo img {
+    margin: 39px auto 0;
+    display: block;
+}
+
+header nav {
+    padding: 35px 0 40px;
+    text-align: center;
+}
+
+header nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    padding: 0 90px 0 0;
+}
+
+header nav a:nth-last-child(1) {
+    padding: 0;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: #ff4622;
+}
+
+header nav a:active {
+    color: #ff4622;
+}
+
+header nav a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #ff4622;
+}
+
+#weneed {
+    background: #ff4622;
+    padding: 50px 40px 40px 50px;
+}
+
+#weneed h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 74px;
+    color: #fff;
+    margin: 0;
+}
+
+#weneed > span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+    background: #0066ff;
+}
+
+#weneed .carousel-indicators {
+    top: 115px;
+    right: 0;
+    width: auto;
+    margin: 0;
+    left: inherit;
+}
+
+#weneed .carousel-indicators li {
+    width: 7px;
+    height: 7px;
+    margin: 6px;
+    background-color: #ffa391;
+    display: block;
+    border: none;
+}
+
+#weneed .carousel-indicators .active {
+    margin: 3px;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+#weneed .carousel-inner img {
+    margin: 60px 140px 0 0;
+    float: left;
+}
+
+#weneed .carousel-inner .carousel_text {
+    float: left;
+}
+
+#weneed .carousel-inner .carousel_text h2 {
+    margin: 5px 0 22px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 50px;
+    color: #732312;
+}
+
+#weneed .carousel-inner .carousel_text p {
+    margin: 30px 0 0 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 34px;
+    color: #fff;
+}
+
+#weneed .carousel-inner .carousel_text p .test {
+    color: #732312;
+    background: none;
+}
+
+#weneed .carousel-inner .carousel_text p .newwindow {
+    padding: 0 7px 0 27px;
+    background: url("img/newwindow.png") no-repeat #ce3d20 3px 13px;
+}
+
+#wepropose {
+    background: #f0f0f0;
+    padding: 95px 50px 40px 50px;
+}
+
+#wepropose h1 {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 74px;
+    color: #000;
+    margin: 0;
+}
+
+#wepropose .dropdown {
+    float: right;
+    top: 35px;
+}
+
+#wepropose .dropdown button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #c1c1c1;
+    border: none;
+    background: url("img/dropdown_arrow.png") no-repeat #fff 170px 12px;
+    padding: 6px 35px 6px 12px;
+}
+
+#wepropose table {
+    margin: 100px 0 0 0;
+    width: 100%;
+}
+
+#wepropose table tr td {
+    padding: 50px;
+    background: #fff;
+    border: 15px solid #f0f0f0;
+    height: 420px;
+}
+
+#wepropose table tr td:nth-child(2n+1) img {
+    display: block;
+    margin: 0 auto 60px;
+}
+
+#wepropose table tr td div {
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+
+#wepropose table tr td span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+#wepropose table tr td p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #a8a8a8;
+}
+
+#wepropose a.propose {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #4800ff;
+    display: block;
+    text-align: center;
+    margin: 130px 0 300px 0;
+}
+
+.aboutus_container {
+    max-width: 1170px;
+    margin: -170px auto 100px;
+}
+
+.aboutus {
+    padding: 10px;
+    background: #dcdcdc;
+}
+
+.aboutus h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 74px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.aboutus p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.aboutus p a {
+    color: #4800ff;
+}
+
+.aboutus p span:nth-child(2) {
+    color: #ff4622;
+}
+
+.aboutus p span:nth-child(3) {
+    color: #f0f0f0;
+}
+
+.accept {
+    border: 7px dashed #4800ff;
+    border-top: none;
+}
+
+.accept a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #4800ff;
+    text-align: center;
+    display: block;
+}
+
+#link {
+    border: 7px dashed #4800ff;
+    padding: 40px 100px;
+    position: relative;
+}
+
+.container_link {
+    display: inline-block;
+    height: 90px;
+    width: 732px;
+    margin: 0 0 0 40px;
+}
+
+#link .link_first {
+    margin: 20px 0 30px 0;
+    max-width: 731px;
+    height: 30px;
+    border-radius: 5px;
+    background: #d1bfff;
+}
+
+#link .link_second {
+    max-width: 286px;
+    height: 30px;
+    border-radius: 5px;
+    background: #a37fff;
+}
+
+#link img.send {
+    position: absolute;
+    bottom: -7px;
+    right: -7px;
+}
+
+#link input.send {
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: -7px;
+    right: -7px;
+    display: block;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.contacts_holder {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.contacts_holder h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 37px;
+    color: #385461;
+    margin-bottom: 44px;
+}
+
+.contacts_holder .col-lg-6 img {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.contacts_holder .col-lg-6 img.mail {
+    margin-bottom: 35px;
+}
+
+.contacts_holder .col-lg-6 span:nth-child(2) {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #385461;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contacts_holder .col-lg-6 span:nth-child(3) {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #909090;
+    display: block;
+    margin-bottom: 55px;
+}
+
+.contacts_holder form fieldset input {
+    width: 280px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 46px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.contacts_holder form fieldset input.name {
+    background: url("img/form_name.png") no-repeat 250px 50% #f6f6f6;
+    color: #cdcdcd;
+}
+
+.contacts_holder form fieldset input.email {
+    color: #fff;
+    background: url("img/form_email.png") no-repeat 250px 50% #ff4622;
+}
+
+.contacts_holder form fieldset textarea {
+    width: 330px;
+    height: 120px;
+    border: 3px solid #cdcdcd;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 46px;
+    color: #cdcdcd;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.contacts_holder form fieldset input.submit {
+    float: right;
+    width: 210px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: #3db39e;
+    background: url("img/form_send.png") no-repeat 152px 50%;
+    border: 3px solid #3db39e;
+    text-align: left;
+    padding: 0 0 0 21px;
+}
+
+footer div.hashtag, footer div.social {
+    width: 100%;
+    overflow: hidden;
+}
+
+footer div.hashtag ul, footer div.social ul {
+    left: 50%;
+    margin: 20px 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+footer div.hashtag ul li {
+    font-family: "Courier New", Arial;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 20px;
+    right: 50%;
+    float: left;
+    position: relative;
+}
+
+footer > p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #dcdcdc;
+}
+
+footer div.social ul li {
+    padding: 0 8px;
+    right: 50%;
+    float: left;
+    position: relative;
+}
+
+footer div.social ul li a {
+    display: block;
+}
+
+footer div.social ul li a.twitter {
+    width: 24px;
+    height: 21px;
+    background: url("img/social_icons.png") no-repeat;
+}
+
+footer div.social ul li a.facebook {
+    width: 21px;
+    height: 21px;
+    background: url("img/social_icons.png") no-repeat -24px 0;
+}

@@ -20,10 +20,10 @@
                 <img src="img/header_image.png" width="490" height="155" alt="logo">
             </div>
             <nav>
-                <a class="active" href="#">we need</a>
-                <a href="#">we propose</a>
-                <a href="#">who we are</a>
-                <a href="#">contact information</a>
+                <a class="active" href="#weneed">we need</a>
+                <a href="#wepropose">we propose</a>
+                <a href="#whoweare">who we are</a>
+                <a href="#contact">contact information</a>
             </nav>
         </div>
     </header>
@@ -139,9 +139,9 @@
                 </td>
             </tr>
         </table>
-        <a class="propose" href="#">SHOW ALL PROPOSITIONS</a>
+        <a class="propose" href="#" target="_blank">SHOW ALL PROPOSITIONS</a>
     </div>
-    <div class="aboutus_container">
+    <div id="whoweare" class="aboutus_container">
         <div class="aboutus">
             <h4>about us</h4>
             <p>We coordinate projects with our dedicated development <a href="#">team</a>.
@@ -164,7 +164,7 @@
         </div>
     </div>
     <footer>
-        <div class="contacts_holder">
+        <div id="contact" class="contacts_holder">
             <div class="col-lg-4">
                 <h6>That’s where we are</h6>
                 <div class="col-lg-6">
@@ -214,13 +214,26 @@
         <p>Moebius labs &#169; We are looking for front-end developer 2016</p>
         <div class="social">
             <ul>
-                <li><a class="twitter" href="#"></a></li>
-                <li><a class="facebook" href="#"></a></li>
+                <li><a class="twitter" href="#" target="_blank"></a></li>
+                <li><a class="facebook" href="#" target="_blank"></a></li>
             </ul>
         </div>
     </footer>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $('a[href^="#"]').click(function () {
+            var el = $(this).attr('href');
+            $('body').animate({
+                scrollTop: $(el).offset().top
+            }, 2000);
+            return false;
+        });
+
+    });
+</script>
 </body>
 </html>
